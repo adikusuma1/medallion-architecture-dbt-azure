@@ -40,7 +40,7 @@
 
 ## 📊 **Hasil Transformasi**
 ### **Layer Silver (DBT Snapshots)**
-![Snapshot Schema](img/DBT-docs_lineargraph_silver-layer.png)  
+![Snapshot Schema](img/DBT-docs_Lineargraph_silver-layer.png)  
 *Contoh: Tabel `address_snapshot` dengan historis perubahan.*
 
 ### **Layer Gold (Dimensional Model)**
