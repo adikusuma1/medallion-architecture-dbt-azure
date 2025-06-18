@@ -1,0 +1,81 @@
+[0m21:46:26.419500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC2DEB2620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC2D07A9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC2D07A770>]}
+
+
+============================== 21:46:26.419500 | bcbc799f-e2e9-4984-8bd3-2551c7a2e95d ==============================
+[0m21:46:26.419500 [info ] [MainThread]: Running with dbt=1.10.1
+[0m21:46:26.419500 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\M S I\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:46:48.062765 [debug] [MainThread]: Starter project path: D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\include\starter_project
+[0m21:46:48.203619 [info ] [MainThread]: 
+Your new dbt project "medalion_dbt_dpark" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:46:48.203619 [info ] [MainThread]: Setting up your profile.
+[0m21:46:52.241290 [error] [MainThread]: Encountered an error:
+
+[0m21:46:52.243311 [error] [MainThread]: Traceback (most recent call last):
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\task\init.py", line 242, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\click\termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+  File "D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\click\termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m21:46:52.248493 [debug] [MainThread]: Command `dbt init` failed at 21:46:52.243311 after 25.92 seconds
+[0m21:46:52.248493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC2DEB2620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC2D083970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC2D0833A0>]}
+[0m21:46:52.249565 [debug] [MainThread]: Flushing usage events
+[0m21:46:53.383705 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:47:03.139576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F0A5A26B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F0976AAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F0976A860>]}
+
+
+============================== 21:47:03.145877 | 77ec74f1-1b60-4a6e-9441-27c5dabddf9a ==============================
+[0m21:47:03.145877 [info ] [MainThread]: Running with dbt=1.10.1
+[0m21:47:03.145877 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\M S I\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:47:10.534022 [debug] [MainThread]: Starter project path: D:\Academic-Project\Portofolio Data Engineer\DE-project\lib\site-packages\dbt\include\starter_project
+[0m21:47:10.555065 [info ] [MainThread]: 
+Your new dbt project "medalion_dbt_spark" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:47:10.555065 [info ] [MainThread]: Setting up your profile.
+[0m21:47:14.459564 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:47:14.459564 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:47:14.459564 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:48:23.169736 [info ] [MainThread]: Profile medalion_dbt_spark written to C:\Users\M S I\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:48:23.169736 [debug] [MainThread]: Command `dbt init` succeeded at 21:48:23.169736 after 80.13 seconds
+[0m21:48:23.169736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F0A5A26B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F0976A800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F09773490>]}
+[0m21:48:23.178464 [debug] [MainThread]: Flushing usage events
+[0m21:48:24.553695 [debug] [MainThread]: An error was encountered while trying to flush usage events
