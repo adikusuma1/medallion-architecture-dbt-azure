@@ -20,8 +20,6 @@
 ---
 
 ## 🏗️ **Arsitektur**
-![Diagram Arsitektur](img/architecture.png)  
-*(Gantilah dengan diagram Anda atau tambahkan deskripsi tekstual jika gambar tidak tersedia)*
 
 ### **Alur Proses**
 1. **Ingestion**: ADF menyalin data mentah dari SQL Database ke ADLS Gen2 (Bronze) dalam format Parquet.
