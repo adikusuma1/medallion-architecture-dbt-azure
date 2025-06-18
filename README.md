@@ -48,14 +48,3 @@
 *Contoh: Tabel dimensi `dim_customer` dan fakta `fact_sales`.*
 
 ---
-
-## 🚀 **Cara Menjalankan Proyek**
-### Prasyarat
-- Azure subscription (ADF, Databricks, ADLS Gen2)
-- DBT Core ≥ v1.10.1
-- Python 3.8+
-
-### Langkah-Langkah
-1. **Clone Repo**:
-   ```bash
-   git clone https://github.com/username/azure-adventureworks-medallion-pipeline.git
